@@ -47,6 +47,7 @@ TEMP_CORR = 47  # Just a first value
 class QMC5883L(object):
     '''Driver for the QMC5883l 3-Axis Magnetic Sensor'''
     def __init__(self,
+                 adress=0d,
                  adress=13,
                  busnum=1,
                  cont_mode=True,
